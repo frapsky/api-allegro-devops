@@ -12,6 +12,12 @@ przy użyciu komendy:
 Następnie z poziomu konsoli wpisz:
 
 	docker run -p 8000:8000 api-allegro-devops
+	
+Kolejna opcja to sklokonowanie repozytorium i zbudowanie obrazu:
+	git clone https://github.com/frapsky/api-allegro-devops.git
+	cd ./api-allegro-devops
+	docker build -t api-allegro-devops .
+	docker run -p 8080:8080 api-allegro-devops
 
 Serwer powinien już wystartować.
 Możesz przetestować przy pomocy Postman'a, wysyłając plik .png na endpoint http://localhost:8000/api/rotate 
