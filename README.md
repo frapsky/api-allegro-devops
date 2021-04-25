@@ -31,12 +31,9 @@ Musisz mieć zainstalowanego Pythona na swoim komputerze!
 3) Zainstaluj dodatkowe biblioteki potrzebne do uruchomienia:
 
 	pip install Pillow aiofile fastapi python-multipart hypercorn asyncio uvicorn
-	
-	lub
-	
 	pip install -r requirements.txt
-
-4) Otwórz terminal lub IDE i zmień ścieżkę na taką, w której znajduje się plik main.py
+	
+5) Otwórz terminal lub IDE i zmień ścieżkę na taką, w której znajduje się plik main.py
   
 5) Wpisz: uvicorn main:app --reload
 
