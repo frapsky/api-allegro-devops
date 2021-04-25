@@ -14,6 +14,7 @@ Następnie z poziomu konsoli wpisz:
 	docker run -p 8000:8000 api-allegro-devops
 	
 Kolejna opcja to sklokonowanie repozytorium i zbudowanie obrazu:
+
 	git clone https://github.com/frapsky/api-allegro-devops.git
 	cd ./api-allegro-devops
 	docker build -t api-allegro-devops .
