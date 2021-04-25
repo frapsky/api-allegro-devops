@@ -35,3 +35,16 @@ W tym momencie uruchamia się serwer z otwartym portem localhost:8000
 7)Z poziomu graficznego GUI FastAPI pod linkiem http://127.0.0.1:8000/docs, gdzie klikając przycisk
 "Try it out" możesz przesłać plik, który następnie powinien zostać zwrócony :)
 
+
+## Example POST request which contains a .png file in body
+
+Postman POST request example
+![postman_post_request](https://user-images.githubusercontent.com/59486011/116008351-650f7280-a614-11eb-9037-c35a4b019897.png)
+
+Source image which contains a line (3x white px and 3x red px):
+![postman_post_request](https://user-images.githubusercontent.com/59486011/116008351-650f7280-a614-11eb-9037-c35a4b019897.png)
+
+Response image: 
+![post_response](https://user-images.githubusercontent.com/59486011/116008424-bcadde00-a614-11eb-8ba6-0d2d699b73d0.png)
+
+
